@@ -30,7 +30,7 @@ ui <- fluidPage(
 
     mainPanel(plotOutput("map"))
   )
-)
+) 
 
 # Server logic ----
 server <- function(input, output) {
